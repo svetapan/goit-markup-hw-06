@@ -359,7 +359,7 @@
             </li>
             <li class="client-icon">
               <a href="" class="client">
-                <svg class="client-img" width="40px" height="52px">
+                <svg class="client-img" width="106px" height="60px">
                   <use href="./images/sprite.svg#icon-logo-02"></use>
                 </svg>
               </a>
@@ -452,13 +452,13 @@
           </div>
           <div class="column">
             <form class="">
-              <label for="mail" class="prompt">Підпишіться на розсилку</label>
+              <label for="subscribe-email" class="prompt">Підпишіться на розсилку</label>
               <div class="prompt-form">
                 <input
                   class="prompt-mail"
-                  type="mail"
-                  name="mail"
-                  id="mail"
+                  type="email"
+                  name="email"
+                  id="subscribe-email"
                   placeholder="E-mail"
                 />
                 <button class="subscription" type="submit">
@@ -475,6 +475,11 @@
     </footer>
     <div class="backdrop is-hidden" data-modal>
       <div class="modal">
+        <button class="modal-button" data-modal-close>
+          <svg class="closed">
+            <use href="./images/sprite.svg#icon-close"></use>
+          </svg>
+        </button>
         <form>
           <b class="modal-information"
             >Залиште свої дані, ми вам передзвонимо</b
@@ -524,11 +529,6 @@
           </div>
           <button type="submit" class="submit">Відправити</button>
         </form>
-        <button class="modal-button" data-modal-close>
-          <svg class="closed">
-            <use href="./images/sprite.svg#icon-close"></use>
-          </svg>
-        </button>
       </div>
     </div>
     <script src="./js/modal.js"></script>

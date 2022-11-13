@@ -305,6 +305,7 @@ header {
   margin: 0;
   padding: 27px;
   font-weight: 700;
+  font-size: 14px;
   line-height: 1.14;
   text-transform: uppercase;
   color: var(--secondary-color);
@@ -334,6 +335,12 @@ header {
 
 .team-descr {
   padding: 30px;
+  font-size: 16px;
+  line-height: 1.1875;
+}
+
+.team-card img {
+  display: block;
 }
 
 .team-descr p {
@@ -347,7 +354,7 @@ header {
   color: var(--title-text-color);
   font-weight: 500;
   font-size: 16px;
-  line-height: 1.18;
+  line-height: 1.19;
 }
 
 .team-card .social {
@@ -430,19 +437,18 @@ footer {
 .footer {
   display: flex;
   flex-wrap: wrap;
-  margin-top: -30px;
   margin-left: -30px;
 }
 
 .column {
   flex-basis: calc(100% / 4 - 30px);
-  margin-top: 30px;
   margin-left: 30px;
+  padding-top: 12px;
 }
 
 .prompt {
   display: block;
-  margin-top: 12px;
+  margin-top: 0;
   margin-bottom: 20px;
 
   font-weight: 700;
@@ -453,18 +459,20 @@ footer {
 }
 
 footer .logo {
+  vertical-align: top;
   display: inline-block;
+  margin-top: -12px;
   margin-bottom: 20px;
 }
 
 .address {
   font-style: normal;
   line-height: 1.72;
-  margin-bottom: -9px;
+  margin-bottom: -7px;
 }
 
 .address li {
-  margin-bottom: 9px;
+  margin-bottom: 7px;
 }
 
 .address-link {
@@ -496,7 +504,7 @@ footer .social-icon {
 .prompt-mail {
   width: 358px;
   color: var(--secondary-color);
-  padding: 15px 16px;
+  padding: 14px 16px;
   font-size: 16px;
   line-height: 1.25;
   background-color: #2F303A;
